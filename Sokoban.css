@@ -84,13 +84,14 @@ table#playfield thead td {
 
 .scaletapdiv{
     position: fixed;
-    left: 50%;
-    bottom: 10px;
+    top: 50%;
+    left: -70px;
     z-index: 10;
-    margin: 16px 0px 16px 0px; 
+    margin: 2px 0px 2px 0px; 
     padding: 0px;
     height: 32px;
     transform: translateX(-50%);
+    transform: rotate( -90deg );
 }
 
 .min{
@@ -329,14 +330,14 @@ td.hole {
 
 .undo_div{
     position: fixed;
-    left: 10px;
-    bottom:10px;
+    right: 10px;
+    top: 158px;
 }
 
 .reset_div{
     position: fixed;
     right: 10px;
-    bottom:10px;
+    top: 84px;
 }
 
 .button {
